@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "poppins"sans-serif;
+    font-size: 15px;
+    background-image:linear-gradient(to right, #ef3d6d, #7646d1);
+    padding: 50px;
+    margin: 20px;
+    text-align: left;
+}
+.block{
+    display: grid;
+    grid-gap: 10px;
+    text-align: right;
+}
+.menu{
+    display: grid;
+}
+.menu ul{
+    display: grid;
+    grid-gap: 5px;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.menu a {
+    background: #ffc600;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+.coding{
+    display: flex;
+    margin: 10px;
+    position: relative;
+}
+
+.myself{
+    background: #ffc600;
+    position: absolute;
+    padding: 163px;
+    margin-left: 67%;
+    text-align: center;
+}
+.info , .about{
+    background: #ffc600;
+    display: flex;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.project{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+.project section{
+   background: white;
+    border: 1px solid black;
+     text-align: center;
+     padding: 20px;
+     margin: 10px;
+}
+.project section a{
+    text-decoration: none;
+    color: dodgerblue;
+    background: black;
+}
+
